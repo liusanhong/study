@@ -3,4 +3,6 @@
 #### 介绍
 sanhong个人的学习笔记
 
-<a href="./markdown" title="markdown">markdown</a>
+<!-->markdown简易语法-->
+<a href="./markdown/markdown_easy.md" 
+title="markdown">markdown简易语法</a>
