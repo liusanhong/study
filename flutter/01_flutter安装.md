@@ -9,7 +9,9 @@
 
 ### 2. 解压到你想放置到地方
 
-### 3. 设置环境变量 
+### 3. 设置环境变量 打开环境变量：
+
+打开环境变量文件，把path复制到环境变量里面。或者用vim操作也行，具体不详细介绍
   
  ```
     open -e .bash_profile export
@@ -20,12 +22,12 @@
  
 ### 4. 在appstore里面安装xcode 
 
-   安装
+   安装最新
    [Android Studio](https://developer.android.com/studio/index.html)
    
 ### 5. Android Studio 里面安装最新的sdk和BuildTools
 
-现在Flutter requires Android SDK 28 and the Android BuildTools 28.0.3
+现在的是Flutter requires Android SDK 28 and the Android BuildTools 28.0.3
 
 ### 5.  Android Studio安装插件 
 
