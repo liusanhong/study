@@ -1,6 +1,15 @@
 # flutter安装(macOS)
-
-
+   
+   * [flutter安装(macOS)](#flutter安装macos)
+     * [1. 下载flutter](#1-下载flutter)
+     * [2. 解压到你想放置到地方](#2-解压到你想放置到地方)
+     * [3. 设置环境变量 打开环境变量：](#3-设置环境变量-打开环境变量)
+     * [4. 在appstore里面安装xcode](#4-在appstore里面安装xcode)
+     * [5. Android Studio 里面安装最新的sdk和BuildTools](#5-android-studio-里面安装最新的sdk和buildtools)
+     * [5.  Android Studio安装插件](#5--android-studio安装插件)
+     * [6. 运行 flutter doctor(按上面来后，android一般就差不多了)](#6-运行-flutter-doctor按上面来后android一般就差不多了)
+     * [7. 用as新建一个flutter项目，就可以运行了ios模拟器上了](#7-用as新建一个flutter项目就可以运行了ios模拟器上了)
+     
 说明：macOS系统，使用的是Android Studio(简称as)编辑器 
 
 ### 1. 下载flutter

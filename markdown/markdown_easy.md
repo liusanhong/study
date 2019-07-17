@@ -3,6 +3,43 @@
 # Cmd Markdown 简明语法手册
 这篇文档是markdown的，有些许不使用github，例如[TOC]
 
+   * [Cmd Markdown 简明语法手册](#cmd-markdown-简明语法手册)
+     * [1. 斜体和粗体](#1-斜体和粗体)
+     * [2. 分级标题](#2-分级标题)
+     * [3. 外链接](#3-外链接)
+     * [4. 无序列表](#4-无序列表)
+     * [5. 有序列表](#5-有序列表)
+     * [6. 文字引用](#6-文字引用)
+     * [7. 行内代码块](#7-行内代码块)
+     * [8.  代码块](#8--代码块)
+     * [9.  插入图像](#9--插入图像)
+* [Cmd Markdown 高阶语法手册](#cmd-markdown-高阶语法手册)
+     * [1. 内容目录](#1-内容目录)
+     * [2. 标签分类](#2-标签分类)
+     * [3. 删除线](#3-删除线)
+     * [4. 注脚](#4-注脚)
+     * [5. LaTeX 公式](#5-latex-公式)
+     * [6. 加强的代码块](#6-加强的代码块)
+     * [7. 流程图](#7-流程图)
+        * [示例](#示例)
+        * [更多语法参考：<a href="http://adrai.github.io/flowchart.js/" rel="nofollow">流程图语法参考</a>](#更多语法参考流程图语法参考)
+     * [8. 序列图](#8-序列图)
+        * [示例 1](#示例-1)
+        * [示例 2](#示例-2)
+        * [更多语法参考：<a href="http://bramp.github.io/js-sequence-diagrams/" rel="nofollow">序列图语法参考</a>](#更多语法参考序列图语法参考)
+     * [9. 甘特图](#9-甘特图)
+        * [更多语法参考：<a href="https://knsv.github.io/mermaid/#gant-diagrams" rel="nofollow">甘特图语法参考</a>](#更多语法参考甘特图语法参考)
+     * [10. Mermaid 流程图](#10-mermaid-流程图)
+        * [更多语法参考：<a href="https://knsv.github.io/mermaid/#flowcharts-basic-syntax" rel="nofollow">Mermaid 流程图语法参考</a>](#更多语法参考mermaid-流程图语法参考)
+     * [11. Mermaid 序列图](#11-mermaid-序列图)
+        * [更多语法参考：<a href="https://knsv.github.io/mermaid/#sequence-diagrams" rel="nofollow">Mermaid 序列图语法参考</a>](#更多语法参考mermaid-序列图语法参考)
+     * [12. 表格支持](#12-表格支持)
+     * [13. 定义型列表](#13-定义型列表)
+     * [14. Html 标签](#14-html-标签)
+     * [15. 内嵌图标](#15-内嵌图标)
+     * [16. 待办事宜 Todo 列表](#16-待办事宜-todo-列表)
+     * [16. github生成文档](#16-github生成文档)
+
 标签： Cmd-Markdown
 
 ---
@@ -372,6 +409,19 @@ D-->>A: Dashed open arrow
     - [ ] 准备邮轮上需要携带的物品
     - [ ] 浏览日本免税店的物品
     - [x] 购买蓝宝石公主号七月一日的船票
+    
+### 16. github生成文档 
+[github-markdown-toc](https://github.com/ekalinin/github-markdown-toc)
+
+macOS (manual installation) 
+```
+    $ curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
+    $ chmod a+x gh-md-toc
+```
+
+使用： ./gh-md-toc 加上路径
+
+然后复制到相应的地方就好了
         
         
 [^footnote]: 这是一个 *注脚* 的 **文本**。
