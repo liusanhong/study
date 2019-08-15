@@ -198,5 +198,9 @@ cat .git/config
 #### git学习网站
 
 [Git Cheat Sheet](https://gitee.com/liaoxuefeng/learn-java/raw/master/teach/git-cheatsheet.pdf)
+
 [git 官方网站](https://git-scm.com/)
+
 [廖雪峰大神写的git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+
+[易百教程](https://www.yiibai.com/git/git_submodule.html)
