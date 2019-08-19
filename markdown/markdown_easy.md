@@ -130,6 +130,11 @@
 
 ![我的头像](https://www.zybuluo.com/static/img/my_head.jpg)
 
+使用标签：
+ 
+ <img src="https://www.zybuluo.com/static/img/my_head.jpg"
+width = "300" height = "300" alt="头像" align=center />
+
 # Cmd Markdown 高阶语法手册
 
 ### 1. 内容目录
