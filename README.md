@@ -13,3 +13,6 @@ title="markdown">markdown简易语法</a>
 <!--flutter-->
 <a href="./flutter/" title="flutter">flutter学习</a>
 
+
+<!--numpy-->
+<a href="./jupyter/numpy.md" title="numpy">numpy学习</a>
