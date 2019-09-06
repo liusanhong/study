@@ -92,6 +92,12 @@ git reset --hard HEAD^/1094a //上一个版本或者版本号
 #### git remote add origin 关联一个远程库 origin远程名字
 
 #### git push -u origin master -u选项指定一个默认主机  origin远程名字 master分支
+#### git push -f origin master  origin远程仓库名，master分支名，-f为force，意为：强行、强制。
+
+这行命令的意思就是强制用本地的代码去覆盖掉远程仓库的代码，敲git push 
+--help可查看官方的解释（英文的）。
+
+请谨慎使用！请谨慎使用！请谨慎使用！
 
 #### git branch 查看分支
 
@@ -162,6 +168,10 @@ $ git checkout <name>
  
 #### git tag -d <tagname> 可以删除一个本地标签
 
+#### git show <tagname>  查看某个标签详情
+
+#### git checkout <tagname> 切换到某个标签
+
 #### git push origin <tagname>可以推送一个本地标签
 
 #### git push origin --tags可以推送全部未推送过的本地标签
@@ -173,6 +183,10 @@ $ git checkout <name>
 
 
 #### git config --global alias.st status 别名缩写，用st代替 status
+
+#### git update-index --assume-unchanged /path/to/file       #忽略跟踪
+
+#### git update-index --no-assume-unchanged /path/to/file  #恢复跟踪
 
 ```
 $ git config --global alias.co checkout
@@ -191,6 +205,16 @@ cat .git/config
 别名就在[alias]后面，要删除别名，直接把对应的行删掉即可。
 
 当前用户的Git配置文件放在用户主目录下的一个隐藏文件.gitconfig中
+
+#### git update-index
+
+提交代码时，忽略某一个文件不提交，即某个文件不被版本控制，例如config.propertites:
+
+git update-index --assume-unchanged config.propertites 
+
+恢复被忽略的文件重新被版本控制:
+
+git update-index --no-assume-unchanged config.propertites
 
 #### 搭建远程git服务器
 [https://www.liaoxuefeng.com/wiki/896043488029600/899998870925664](https://www.liaoxuefeng.com/wiki/896043488029600/899998870925664)

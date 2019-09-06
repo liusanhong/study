@@ -42,7 +42,7 @@ Scipy库是基于Python生态的一款开源数值计算、科学与工程应用
 
 #### ndarray创建
 <a href="./01_ndarray的创建.ipynb"
-title="flutter">具体可以查看01_ndarray代码</a>
+title="numpy">具体可以查看01_ndarray代码</a>
 
 主要创建方法：
 - array函数:接收一个普通的python序列，并将其转换为ndarray 
@@ -155,13 +155,24 @@ title="flutter">具体可以查看01_ndarray代码</a>
 
 <img src="./images/arr_10.png" width = "750" height = "360"/>
 
-<!--待处理63-->
+### 聚合函数
+
+聚合函数是对一组值(eg一个数组)进行操作，返回一个单一值作为结果的函数。 当然聚合函数也可以指定对某个具体的轴进行数据聚合操作;常见的聚合操作有: 平均值、最大值、最小值、总体标准偏差等等
+
+<img src="./images/arr_11.png" width = "750" height = "360"/>
+---
+<img src="./images/arr_12.png" width = "750" height = "360"/>
 
 
+### np.where函数
 
+np.where函数是三元表达式x if condition else y的矢量化版本
 
+<img src="./images/arr_13.png" width = "750" height = "360"/>
 
+### np.unique函数
 
+np.unique函数的主要作用是将数组中的元素进行去重操作(也就是 只保存不重复的数据)
 
 
 
