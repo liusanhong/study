@@ -242,3 +242,86 @@ const createStore = (reducer) => {
   return { getState, dispatch, subscribe };
 };
 ```
+
+### Reducer 的拆分
+
+Redux 提供了一个combineReducers方法，用于 Reducer 的拆分
+
+```
+import { combineReducers } from 'redux';
+
+const chatReducer = combineReducers({
+  chatLog,
+  statusMessage,
+  userName
+})
+
+export default todoApp;
+
+```
+
+下面是combineReducer的简单实现
+
+```
+const combineReducers = reducers => {
+  return (state = {}, action) => {
+    return Object.keys(reducers).reduce(
+      (nextState, key) => {
+        nextState[key] = reducers[key](state[key], action);
+        return nextState;
+      },
+      {} 
+    );
+  };
+};
+```
+
+你可以把所有子 Reducer 放在一个文件里面，然后统一引入
+
+```
+import { combineReducers } from 'redux'
+import * as reducers from './reducers'
+
+const reducer = combineReducers(reducers)
+```
+
+### 工作流程
+
+<img src="./images/r_d_1.png" width = "750" height = "360"/>
+
+1.  用户发出 Action 
+
+```
+store.dispatch(action);
+
+```
+
+2. Store 自动调用 Reducer，并且传入两个参数：当前 State 和收到的 Action。 Reducer 会返回新的 State 
+
+```
+let nextState = todoApp(previousState, action);
+
+```
+
+3. State 一旦有变化，Store 就会调用监听函数。
+
+```
+store.subscribe(listener);
+
+```
+
+4. listener可以通过store.getState()得到当前状态。如果使用的是
+   React，这时可以触发重新渲染 View。
+  
+```
+    function listerner() { 
+        let newState = store.getState(); 
+    }
+```
+
+## 中间件 middleware
+
+中间件就是一个函数，对store.dispatch方法进行了改造，在发出 Action 和执行 Reducer 这两步之间，添加了其他功能。
+
+
+

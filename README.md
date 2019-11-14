@@ -16,3 +16,9 @@ title="markdown">markdown简易语法</a>
 
 <!--numpy-->
 <a href="./jupyter/numpy.md" title="numpy">numpy学习</a>
+
+<!--react学习-->
+<a href="./react/react-redux.md" title="react-redux">react-redux学习</a>
+
+<!--设计模式-->
+<a href="./设计模式/design_pattern.md" title="设计模式">设计模式学习</a>
