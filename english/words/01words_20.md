@@ -71,3 +71,66 @@ characteristic,feature,property
 ```
 first used,invent
 ```
+
+11. artificial [ˌɑːrtɪˈfɪʃl]
+
+```
+synthetic,man-mad
+```
+
+12. prompt
+
+```
+initiate,immediately
+```
+
+13. exchange
+
+```
+share,aplly A to B
+```
+
+14. underline 
+
+```
+based on , ground ,root
+```
+
+15. ignore
+
+```
+neglect,overlook,underestimate,estimate
+```
+
+16. fertilizer
+
+```
+chemical, toxic ,unnatural
+```
+
+17. that
+
+```
+this,it,they,those ,these,such
+```
+
+18. and
+
+```
+or,as well as, both...and,not only...but also..., other than,in addition,
+besides,on the one hand ...on the other hand..., neither...nor...
+```
+
+19. rather than : They aim at quality rather than quantity.
+
+```
+but ,yet, however, whereas, nonetheless, nevertheless, notwithstanding, 
+although, though, instead
+```
+
+20. thanks to
+
+```
+stem from,derive,owing to,due to,according to,because of ,on account of ,
+as a result of, leading to,because ,since ,for ,in that ,as, therefore
+```
