@@ -8,3 +8,22 @@
 [安卓基础 https://www.runoob.com/w3cnote/android-tutorial-intro.html](https://www.runoob.com/w3cnote/android-tutorial-intro.html)
 
 
+#### git 
+
+gogs
+
+### 第三方
+
+#### 图片加载 Android-Universal-Image-Loader 
+ 
+ Android-Universal-Image-Loader 
+
+#### 网络
+
+Volley 数据不大，数据平凡的请求
+
+OKHttp 支持SPDY协议
+
+#### 轮播
+
+Android-ConvenientBanner
