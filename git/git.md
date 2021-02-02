@@ -42,8 +42,10 @@
         * [git check-ignore -v App.class坚持app在ignore 哪行进行了忽略](#git-check-ignore--v-appclass坚持app在ignore-哪行进行了忽略)
         * [git config --global alias.st status 别名缩写，用st代替 status](#git-config---global-aliasst-status-别名缩写用st代替-status)
         * [删除别名配置](#删除别名配置)
+        * [设置git push和pull的默认远程分支](#设置git push和pull的默认远程分支)
         * [搭建远程git服务器](#搭建远程git服务器)
         * [git学习网站](#git学习网站)
+       
 #### git init 初始化一个项目变成Git可以管理的仓库
 
 #### git add 告诉Git，把文件添加到仓库
