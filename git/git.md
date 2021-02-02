@@ -216,6 +216,9 @@ git update-index --assume-unchanged config.propertites
 
 git update-index --no-assume-unchanged config.propertites
 
+#### 设置git push和pull的默认远程分支
+git branch --set-upstream-to=origin/master master
+
 #### 搭建远程git服务器
 [https://www.liaoxuefeng.com/wiki/896043488029600/899998870925664](https://www.liaoxuefeng.com/wiki/896043488029600/899998870925664)
 
